@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="default.aspx" title="首页"  description="">
+      
+      <siteMapNode url="zone1.aspx" title="分区1"  description="" >
+          <siteMapNode url="plate1_1.aspx" title="板块1-1"  description="" />
+          <siteMapNode url="plate1_2.aspx" title="板块1-2"  description="" />
+      </siteMapNode>
+      
+      <siteMapNode url="zone2.aspx" title="分区2"  description="" >
+        <siteMapNode url="plate2_1.aspx" title="板块2-1"  description="" />
+      </siteMapNode>
+      
+      <siteMapNode url="zone3.aspx" title="分区3"  description="" >
+        <siteMapNode url="plate3_1.aspx" title="板块3-1"  description="" />
+      </siteMapNode>
+      
+      <siteMapNode url="zone4.aspx" title="分区4"  description="" >
+        <siteMapNode url="plate4_1.aspx" title="板块4-1"  description="" />
+      </siteMapNode>
+
+      <siteMapNode url="login.aspx" title="登录"  description="" />
+      <siteMapNode url="register.aspx" title="注册"  description="" />
+    
+    </siteMapNode>
+</siteMap>

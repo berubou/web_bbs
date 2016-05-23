@@ -1,0 +1,79 @@
+﻿body,dic,p,h1,h2,h3,h4,h5,img,a { margin :0px; padding: 0px;
+}
+
+#div_main { width:700px; margin:0px auto;}
+
+div.p1 
+{
+    padding :4px; margin-bottom :10px; 
+}
+#div_img,#div_subContent
+{
+    border :1px solid #dedede;
+}
+#div_navi
+{
+    background-image :url(http://localhost:63131/luntan_test01/img/20160519190423.png);
+    height :45px;
+}
+#div_sitepath
+{
+    background-color :#dedede;
+}
+#div_subContent
+{
+    min-height :500px;
+}
+#div_foot
+{
+    background-color :#dedede;
+}
+
+
+/*Menu控制*/
+#Menu1 *
+{
+    outline :none;
+}
+#Menu1 li
+{ 
+    padding :5px 10px 5px 10px; 
+}
+#Menu1 li+li
+{
+    border-left :1px solid Black;
+}
+#Menu1 ul
+{ 
+    padding :10px 5px 10px 5px  !important;
+}
+#Menu1 a 
+{
+    font-size:20px; color :siver;
+}
+#Menu1 a:hover
+{
+    font-size:25px;color :White ;
+}
+#Menu1 a.selected
+{
+    text-decoration : underline ; color : Lime ;
+}
+#Menu1 a.selected:hover
+{
+    color : Yellow  ;
+}
+
+/*SiteMapPath1控制*/
+#SiteMapPath1 a
+{
+    text-decoration :none; font-size :18px; color :#444;
+}
+#SiteMapPath1 a:hover
+{
+    color :#35a;
+}
+#SiteMapPath1 span.now
+{
+    font-size :20px; color :#555;
+}

@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="CSS_Default.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id ="div_main" >
+        <div id="div_head" class= "p1">
+        <h1>XX论坛</h1>
+        </div>
+
+
+        <div id="div_navi" class= "p1">
+            <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" 
+                MaximumDynamicDisplayLevels="0" Orientation="Horizontal" 
+                StaticDisplayLevels="2">
+            </asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+        </div>
+
+
+        <div id="div_img" class= "p1">
+            <asp:ContentPlaceHolder ID="CPH_img" runat=server >
+            </asp:ContentPlaceHolder>
+        </div>
+
+
+        <div id="div_sitepath" class= "p1">
+            <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                <CurrentNodeStyle CssClass="now" />
+            </asp:SiteMapPath>
+        </div>
+
+
+        <div id="div_subContent" class= "p1">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+
+
+        <div id="div_foot" class= "p1">
+        <p >页脚</p>
+        </div>
+
+    </div>
+    </form>
+</body>
+</html>
